@@ -28,13 +28,14 @@ cardString = str(card)
 import random
 from random  import randint
 
-# exit = 0
-# while exit != 1
-
 while True:
 
   while mode == 0:
     # Mode for easy user navigation
+    if score <= 0:
+      score = 50
+    tries = 0
+    wins = 0
     mode = int(input("\nWelcome to Blackjack Blizzard!\n1 - Play\n2 - Settings\n3 - Rules\n4 - Score\n5 - Quit\n"))
 
   if mode == 4:
