@@ -39,6 +39,7 @@ while True:
 
   if mode == 4:
     print(("\nYour score is ") + scoreString)
+    mode = 0
 
   while mode == 2:
     # Let User set the Ace and Yeti values
